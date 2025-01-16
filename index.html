@@ -7,10 +7,11 @@
 </head>
 <body>
     <h1>CRUD Usuários</h1>
-    <form>
-        <input type="text" placeholder="Digite seu nome">
-        <input type="email" placeholder="Digite seu email">
-        <button>Salvar</button>
+    <form id="createForm">
+        <input type="hidden" id="itemId">
+        <input id= "name" type="text" placeholder="Digite seu nome">
+        <input id= "email" type="email" placeholder="Digite seu email">
+        <button type="submit">Salvar</button>
     </form>
     <h2>Usuários Cadastrados</h2>
     <div id="usuarios"></div>
